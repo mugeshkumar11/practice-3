@@ -95,7 +95,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3px;
     font-size: 16px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
@@ -104,10 +103,10 @@
     position: relative;
     text-decoration: none;
 }
-.navbar ul a:hover li{
+.navbar ul li:hover a{
     color: #fff;
 }
-.navbar ul a li::before {
+.navbar ul li a::before {
     content: "";
     height: 2px;
     background-color: #f96f59;
@@ -118,7 +117,60 @@
     transition: all 1s;
 
 }
-.navbar ul a:hover > li::before{
-    width: 20%;
+.navbar ul li:hover > a::before{
+    width: 100%;
     transition: all 1s;
+}
+.banner{
+    background-color: #008374;
+    height: auto;
+    padding: 60px 0 0 0;
+    width: 100%;
+}
+.banner-flex{
+    width: 100%; 
+    display: flex;
+}
+.bannertext{
+    width: 50%;
+}
+.bannerimage {
+    width: 50%;
+}
+.bannertext h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 65px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+.bannertext p{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.bannerbutton {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bannerbutton button {
+    font-weight: 500;
+    font-size: 15px;
+    font-family:"Montserrat", sans-serif; 
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgb(0 0 0 / 8%);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.bannerbutton a{
+    color: #fff;
+    text-decoration: none;
 }
