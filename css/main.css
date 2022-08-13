@@ -10,6 +10,7 @@
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    /* position: relative; */
 }
 .quickcontact {
     background-color: #00796b;
@@ -126,6 +127,7 @@
     height: auto;
     padding: 60px 0 0 0;
     width: 100%;
+    padding-bottom: 100px;
 }
 .banner-flex{
     width: 100%; 
@@ -155,6 +157,7 @@
 .bannerbutton {
     display: flex;
     flex-wrap: wrap;
+    
 }
 .bannerbutton button {
     font-weight: 500;
@@ -172,5 +175,83 @@
 }
 .bannerbutton a{
     color: #fff;
+    text-decoration: none;
+    justify-content: flex-start;
+}
+.bannerbutton span {
+    font-size: 16px;
+    color:rgb(184, 173, 173);
+    font-weight: 400;
+     padding-top: 18px;
+}
+.bannerbutton .icofont-play-alt-2 {
+    font-size: 32px;
+    margin-left: 25px; 
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    padding-top: 40px;
+    margin-right: 8px; 
+}
+.bannerbutton a{
+    padding-top: 10px;
+}
+.bannerbutton a:hover i{
+    color: #fff;
+}
+.bannerbutton a:hover span {
+    color: #fff;
+}
+.boxes {
+    background-color:#fff;
+    height: auto;
+    padding-top: 60px;
+    /* position: absolute;
+    top: 90%; */
+}
+.boxes-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 95%; 
+    left: 2%;
+    right: 0;
+}
+.boxes-flex .box-1{
+    width: 23%;
+    height: auto;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.box-1 {
+    padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #008d7d;
+    box-shadow: 0 0 29px 0 rgb(0 0 0 / 8%);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.box-1 i{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 48px;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.6);
+}
+.box-1 h2{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #fff;
+    
+}
+.box-1 a{
     text-decoration: none;
 }
