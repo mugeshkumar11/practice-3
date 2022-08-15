@@ -11,6 +11,7 @@
     padding-left: 15px;
     padding-right: 15px;
     
+    
 }
 .quickcontact {
     background-color: #00796b;
@@ -132,6 +133,7 @@
 .banner-flex{
     width: 100%; 
     display: flex;
+    position: relative;
 }
 .bannertext{
     width: 50%;
@@ -209,12 +211,10 @@
 }
 .boxes-flex{
     display: flex;
-    flex-wrap: wrap;
     box-sizing: border-box;
+    position: absolute;
+    width: 92%;
     top: 95%; 
-    left: 0;
-    right: 0;
-    content: "";
 }
 .boxes-flex .box-1{
     width: 23%;
@@ -226,8 +226,6 @@
 }
 .box-1 {
     padding: 60px 30px;
-    position: absolute;
-    overflow: hidden;
     background: #008d7d;
     box-shadow: 0 0 29px 0 rgb(0 0 0 / 8%);
     transition: all 0.3s ease-in-out;
