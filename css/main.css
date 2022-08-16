@@ -182,7 +182,7 @@
 }
 .bannerbutton span {
     font-size: 16px;
-    color:rgb(184, 173, 173);
+    color: #fff;
     font-weight: 400;
      padding-top: 18px;
 }
@@ -207,14 +207,15 @@
     background-color:#fff;
     height: auto;
     padding-top: 60px;
+    padding-bottom: 80px;
 
 }
 .boxes-flex{
     display: flex;
     box-sizing: border-box;
     position: absolute;
-    width: 92%;
-    top: 95%; 
+    width: 88%;
+    top: 105%; 
 }
 .boxes-flex .box-1{
     width: 23%;
@@ -222,7 +223,7 @@
     box-sizing: border-box;
     margin-right: 20px;
     position: relative;
-    top: 95%;
+    top: 105%;
 }
 .box-1 {
     padding: 60px 30px;
@@ -255,4 +256,40 @@
 }
 .boxes-flex :hover i {
     color: #fff;
+}
+.about {
+    padding-top: 30px;
+}
+.about-flex{
+    display: flex;
+    width: 100%;
+}
+.aboutimage {
+    width: 50%;
+
+}
+.abouthead h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family:  "Montserrat", sans-serif;
+}
+.abouthead .hrline::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #008374;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.abouthead p{
+    display: flex;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    justify-content: center;
 }
