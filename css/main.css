@@ -253,3 +253,6 @@
 .box-1 a{
     text-decoration: none;
 }
+.boxes-flex :hover i {
+    color: #fff;
+}
