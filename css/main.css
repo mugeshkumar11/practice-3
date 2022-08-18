@@ -258,7 +258,7 @@
     color: #fff;
 }
 .about {
-    padding-top: 30px;
+    padding-top: 100px;
 }
 .about-flex{
     display: flex;
@@ -292,4 +292,90 @@
     padding-top: 18px;
     padding-bottom: 18px;
     justify-content: center;
+    color: #6f6f6f;
+}
+.aboutimage h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 24px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.image{
+  max-width: 545px;
+  height: 410px;
+  border-radius: 16px;
+  margin-bottom: 24px;  
+}
+.aboutimage p{
+   font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   color: #222222;
+   font-size: 16px;
+   margin-bottom: 24px;
+}
+.aboutimage span{
+   font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   color: #222222;
+   font-size: 16px;
+   margin-bottom: 24px;
+}
+.abouttext {
+    padding-left: 60px;
+}
+.abouttext p{
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #222222;
+    margin-bottom: 22px;
+}
+.abouttext ul li{
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #222222;
+    margin-bottom: 25px;
+}
+.abouttext span{
+    font-size: 16px;
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #222222;
+}
+.abouttext img{
+    width: 500px;
+    border-radius: 16px;
+    height: 375px;
+    margin-top: 22px;
+}
+.client{
+    margin-top: 110px;
+    margin-bottom: 90px;
+}
+.image-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clientimage {
+    display: flex;
+    width: 16.66%;
+}
+.clientimage img{
+    width: 86px;
+    height: 100%;
+}
+.clientimage:hover img{
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+.achivement{
+
+}
+.achivement-flex{
+    display: flex;
+
+}
+.achivementimage{
+    width: 50%;
+}
+.achivementimage img{
+    width: 100%;
+    height: auto;
 }
