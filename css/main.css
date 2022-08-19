@@ -366,7 +366,7 @@
     transform: scale(1.1);
 }
 .achivement{
-
+    margin-bottom: 100px;
 }
 .achivement-flex{
     display: flex;
@@ -379,3 +379,101 @@
     width: 100%;
     height: auto;
 }
+.achivementtext{
+    margin-left: 15px;
+}
+.achivement-1 {
+    display: flex;
+    padding: 25px 0;
+}
+.achivement-1 h2{
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    color: #008374;
+    line-height: 40px;
+    padding-right: 15px;
+}
+.achivement-1 h3{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #222222;
+    
+}
+.achivement-1 p{
+    padding-top: 10px;
+    padding-left: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+.hrlengthline{
+    border-bottom: 1px solid #e4e4e4;
+    width: 537px;
+    
+}
+.achivement-2{
+    display: flex;
+    padding: 25px 0;
+} 
+.achivement-2 h2{
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    color: #008374;
+    line-height: 40px;
+    padding-right: 15px;
+}
+.achivement-2 h3{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #222222;
+}
+.achivement-2 p{
+    padding-top: 10px;
+    padding-left: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+.achivement-3 {
+    display: flex;
+    padding: 25px 0;
+}
+.achivement-3 h2{
+    font-size: 40px;
+    display: block;
+    font-weight: 700;
+    color: #008374;
+    line-height: 40px;
+    padding-right: 15px;
+}
+.achivement-3 h3{
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    font-weight: bolder;
+}
+.achivement-3 p{
+    padding-top: 10px;
+    padding-left: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+.callaction{
+    margin-bottom: 70px;
+}
+.callaction .callaction-flex{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/cta-bg.jpg) center center;
+    background-size: cover;
+    padding: 200px 60px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
